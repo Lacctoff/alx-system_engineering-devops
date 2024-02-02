@@ -40,8 +40,8 @@ frontend lacctoff-tech-frontend
 
 backend lacctoff-tech-backend
     balance roundrobin
-    server 469141-web-01 100.25.26.200 check
-    server 469141-web-02 107.23.135.192 check
+    server 469141-web-01 100.25.26.200:80 check
+    server 469141-web-02 107.23.135.192:80 check
 "
 
 # shellcheck disable=SC2154
